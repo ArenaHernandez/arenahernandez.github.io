@@ -1,21 +1,42 @@
-html{
-   margin: 20px;
-   background-color: whitesmoke;
+/* main.css */
 
+body {
+  font-family: Verdana, sans-serif;
+  margin: 40px;
 }
 
-body{
-  
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 300;
-    color: darkgrey;
+h1 {
+  text-align: center;
 }
 
-h1{
-  font-size: 50px;
+img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 50%;
 }
 
-p{
-  font-size: 20px;
-  color:cornflowerblue;;
+h3 {
+  border-bottom: 2px solid #333;
+  padding-bottom: 10px;
+}
+
+.content {
+  margin-bottom: 40px;
+}
+
+.content p {
+  line-height: 1.6;
+}
+
+.content h3 {
+  color: #0077cc;
+  margin-bottom: 20px;
+}
+
+.content p:last-child {
+  margin-bottom: 0;
+}
+.job h4, .job strong {
+  margin: 0;
+  padding: 0;
 }
